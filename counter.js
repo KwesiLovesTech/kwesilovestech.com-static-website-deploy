@@ -3,7 +3,7 @@ const counter = document.querySelector(".counter-number");
 async function updateCounter() {
      {
         // Wait for the fetch request to complete
-        let response = await fetch("https://53mbq3nrcpphycegrtdwso3sve0dshal.lambda-url.us-east-1.amazonaws.com/");
+        let response = await fetch("https://53mbq3nrcpphycegrtdwso3sve0dshal.lambda-url.us-east-1.on.aws/");
         
         // Check if the response was successful
         if (!response.ok) {
