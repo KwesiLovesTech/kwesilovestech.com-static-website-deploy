@@ -1,19 +1,25 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Check if the 'visitorCount' key exists in localStorage
-    if (!localStorage.getItem('visitorCount')) {
-        // If not, initialize it to 0
-        localStorage.setItem('visitorCount', 0);
+const counter = document.querySelector(".counter-number");
+
+async function updateCounter() {
+    try {
+        // Wait for the fetch request to complete
+        let response = await fetch("https://53mbq3nrcpphycegrtdwso3sve0dshal.lambda-url.us-east-1.amazonaws.com/");
+        
+        // Check if the response was successful
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        
+        // Parse the JSON response
+        let data = await response.json();
+        
+        // Update the counter element with the retrieved data
+        counter.innerHTML = `Views: ${data.views}`;
+    } catch (error) {
+        // Handle errors, such as network errors or JSON parsing errors
+        console.error('Error updating counter:', error);
     }
+}
 
-    // Get the current visitor count from localStorage
-    let currentCount = parseInt(localStorage.getItem('visitorCount'));
-
-    // Increment the count by 1 for each visit
-    currentCount++;
-
-    // Update the counter element on the webpage
-    document.getElementById('visitorCounter').innerText = currentCount;
-
-    // Save the updated count back to localStorage
-    localStorage.setItem('visitorCount', currentCount.toString());
-});
+// Call the function to update the counter when needed
+updateCounter();
