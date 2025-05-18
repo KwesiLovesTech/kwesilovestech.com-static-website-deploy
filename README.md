@@ -1,6 +1,6 @@
 # 🌐 www.kwesilovestech.com
 
-This repository contains the source code and configuration files for my personal website **[www.kwesilovestech.com](http://www.kwesilovestech.com)** — a static website hosted on **Amazon Web Services (AWS)**.
+This repository contains the source code and configuration files for my personal website **[www.kwesilovestech.com](http://www.kwesilovestech.com)** — a static website hosted on **Amazon Web Services (AWS) using Amazon S3**.
 
 ## 🚀 About the Project
 
