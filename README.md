@@ -35,7 +35,7 @@ To replicate or deploy this website yourself, follow the step-by-step guide link
 
 ## 📬 Contact
 
-Feel free to reach out or connect via [LinkedIn](www.linkedin.com/in/kwesi-loves-tech) or through the site’s contact section.
+Feel free to reach out or connect via [LinkedIn](https://www.linkedin.com/in/kwesi-loves-tech/) or through the site’s contact section.
 
 ---
 
