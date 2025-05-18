@@ -1,0 +1,54 @@
+# macOS system files
+.DS_Store
+
+# Node dependencies (if applicable)
+node_modules/
+
+# Build outputs (if any static site build process exists)
+dist/
+build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment config files
+.env
+.env.local
+.env.*.local
+
+# AWS credentials and private keys (critical for security)
+.aws/
+*.pem
+*.key
+credentials
+
+# IDE/editor config
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+*.save
+
+# Cache and metadata
+.cache/
+*.lock
+
+# GitHub Actions
+.github/actions/cache/
+.github/workflows/*.bak
+.github/workflows/*.tmp
+
+# CodePipeline artifacts (optional, depending on your packaging process)
+artifacts/
+buildspec.yml
+*.zip
+*.tar.gz
