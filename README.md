@@ -33,9 +33,7 @@ To replicate or deploy this website yourself, follow the step-by-step guide link
 - Fast global delivery via AWS edge locations  
 - Easy to maintain and update using Git workflows  
 
-## 📬 Contact
-
-Feel free to reach out or connect via [LinkedIn](https://www.linkedin.com/in/kwesi-loves-tech/) or through the site’s contact section.
+#### Instructions on how to create the Page Visit Counter at the buttom of the page can be found  [Here](https://github.com/KwesiLovesTech/kwesilovestech.com-static-website-deploy/tree/visit_counter) 
 
 ---
 
