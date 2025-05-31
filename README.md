@@ -2,6 +2,9 @@
 
 This repository contains the source code and configuration files for my personal website **[www.kwesilovestech.com](http://www.kwesilovestech.com)** — a static website hosted on **Amazon Web Services (AWS) using Amazon S3**.
 
+![kwesilovestech](https://github.com/user-attachments/assets/5c5791e2-7cd1-4a59-880b-dc817151bb8b)
+
+
 ## 🚀 About the Project
 
 This project showcases how to host a static website on AWS using a combination of:
